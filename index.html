@@ -15,7 +15,11 @@
             border-right: 1px solid #ccc;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
+        }
+        .left-column-section {
+            width: 100%;
+            max-width: 200px; /* Adjust this value as needed */
         }
         .right-column {
             width: 70%;
@@ -75,7 +79,7 @@
             <a href="https://huggingface.co/bayndrysf" target="_blank"><img src="https://huggingface.co/favicon.ico" alt="Hugging Face"></a>
         </div>
         
-        <div class="section">
+        <div class="section left-column-section">
             <h2>Contact</h2>
             <div class="contact-item">
                 <i class="fas fa-envelope"></i>
@@ -83,13 +87,13 @@
             </div>
         </div>
 
-        <div class="section">
+        <div class="section left-column-section">
             <h2>Blog</h2>
             <div class="contact-item">
                 <i class="fas fa-rss"></i>
                 <a href="blog.html#post1">Blog Post 1</a>
             </div>
-            <!-- Add more blog posts as needed -->
+            <!--Add more blog posts as needed -->
         </div>
     </div>
     
